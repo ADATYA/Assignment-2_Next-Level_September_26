@@ -1,59 +1,59 @@
-# 🎬 MovieExplorer
+<img width="907" height="433" alt="image" src="https://github.com/user-attachments/assets/79f5e55a-a885-4664-bfd9-848ce583b76d" />
 
-A responsive movie explorer built with React, Vite, and Tailwind CSS. Browse shows, search by title, and view details in an interactive modal — powered by the free [TVMaze API](https://www.tvmaze.com/api).
+<img width="902" height="434" alt="image" src="https://github.com/user-attachments/assets/31c4aa0b-726b-42ff-a7d0-97b7f56d8ddb" />
 
-## Features
 
-- **Home page** — hero banner with a CTA into the listing page, plus a features section
-- **Movie listing page** — live search (debounced) over the full TVMaze catalog
-- **Movie cards** — poster, title, rating, release year, and a "See details" button
-- **Details modal** — backdrop image, rating, release date, genre, overview, and cast; closable via the ✕ button or by clicking the backdrop
-- Fully responsive: single column on mobile, up to 4 columns on desktop
-- Loading skeletons and graceful error/empty states
 
-## Tech stack
 
-- React 18 + React Router
-- Vite
-- Tailwind CSS
-- TVMaze API (no key required)
+## 🎬 MovieExplorer
 
-## Getting started
+**MovieExplorer** is a modern, responsive movie and TV show discovery web application built with **React, Vite, and Tailwind CSS**. It allows users to browse, search, and explore detailed information through the free **TVMaze API**.
 
-```bash
-npm install
-npm run dev
-```
+### ✨ Key Features
 
-The app runs at `http://localhost:5173`.
+* 🎯 Modern and responsive UI
+* 🔍 Live search with debouncing
+* 🎬 Dynamic movie/show listing
+* ⭐ Ratings, posters, genres, and release information
+* 📖 Interactive details modal with cast and overview
+* ⏳ Loading skeletons and smooth user experience
+* ⚠️ Graceful error and empty states
+* 📱 Fully responsive across mobile, tablet, and desktop
+* 🧩 Clean and reusable React component structure
+* 🌐 API-driven dynamic content
 
-### Build for production
+### 🛠️ Tech Stack
 
-```bash
-npm run build
-npm run preview
-```
+**React 18 · React Router · Vite · Tailwind CSS · TVMaze API**
 
-## Project structure
+### 🚀 What I Practiced
 
-```
-src/
-  api/tvmaze.js        # API calls (search, list, details)
-  components/          # Navbar, Footer, Hero, SearchBar, MovieCard, MovieModal, SkeletonCard
-  pages/                # Home, MovieListing
-  App.jsx               # Routes
-  main.jsx              # Entry point
-```
+This project helped me strengthen my practical skills in:
 
-## Deploying to Vercel
+* React component architecture
+* React Router and page navigation
+* REST API integration
+* Asynchronous data fetching
+* Debounced search functionality
+* Responsive UI development
+* State and modal management
+* Loading and error handling
+* Modern frontend project structure
 
-1. Push this project to a GitHub repository.
-2. Go to [vercel.com](https://vercel.com) → **New Project** → import the repo.
-3. Framework preset: **Vite** (auto-detected). Build command `npm run build`, output directory `dist`.
-4. Deploy — Vercel will give you a live URL.
+### 🌐 Live Demo
 
-The included `vercel.json` handles client-side routing so refreshing `/movies` doesn't 404.
+🔗 **[View Live Demo](https://movie-explorer-rho-vert.vercel.app/)**
 
-## Notes
+### 💻 Source Code
 
-TVMaze is a TV show database rather than a movie-only database, but its free, key-less API matches the assignment's required endpoints (`/shows`, `/search/shows?q=`) and is used here as the "Free Movie Database API".
+🔗 **[View on GitHub](https://github.com/ADATYA/Assignment-2_Next-Level_September_26)**
+
+### 📌 API
+
+Powered by the free and keyless **TVMaze API**, used for show listings, search results, and detailed show information.
+
+### 🚀 Deployment
+
+The project is optimized for deployment with **Vercel** and includes client-side routing support.
+
+> **MovieExplorer** — A responsive and interactive React project demonstrating modern frontend development, API integration, and clean UI architecture.
